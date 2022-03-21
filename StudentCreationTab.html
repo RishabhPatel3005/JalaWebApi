@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StudentCreationTab</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            footer{
+                padding:10px 0px;
+                background-color:black;
+                color:#9d9d9d;
+                bottom: 0;
+                width:100%;
+                position:fixed;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="https://jalaacademy.com/" target="_blank" class="navbar-brand">Jala</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br><br><br>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h2>Student Creation Tab</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                    <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <input type="number" class="form-control" placeholder="Mobile Number">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" placeholder="Email ID">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="gender" value="male">Male
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="female">Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <label>DOB <input type="date"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                    Qualification<select class="form-control">
+                        <option>B.Tech</option>
+                        <option>MCA</option>
+                        <option>Graduation</option>
+                        <option>Post-Graduation</option>
+                        <option>MBA</option>
+                        <option>Others</option>
+                    </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="course" value="java">JAVA</label>
+                        <label><input type="checkbox" name="course" value=".net">.Net</label>
+                        <label><input type="checkbox" name="course" value="python">Python</label>
+                        <label><input type="checkbox" name="course" value="database">Database</label>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <label>Upload Profile Image
+                            <button class="btn btn-default">Upload</button>
+                            </label> 
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <textarea maxlength="500"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <button class="btn btn-primary">Student</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br><br>
+        <footer>
+            <div class="container">
+                <center>
+            For more information, click on <a href="jalatechnologies.com" target="_blank">Click here</a>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            .colheadstyle{
+                border:3px solid black;
+            }
+            .colstyle{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            footer{
+                padding:10px 0px;
+                background-color:black;
+                color:#9d9d9d;
+                bottom: 0;
+                width:100%;
+                position:fixed;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="https://jalaacademy.com/" target="_blank" class="navbar-brand">Jala</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="StudentCreationTab.html"><span class="glyphicon glyphicon-user"></span>Student Creation Tab</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <img src="img/Jala-Academy-Logo-5.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <span class="glyphicon glyphicon-search"></span> <input type="number" placeholder="Mobile Number"><button type="submit" class="btn btn-primary">Search</button>
+                </div>
+                <div class="col-xs-6">
+                    <span class="glyphicon glyphicon-search"></span> <input type="text" placeholder="Name"><button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </div>
+            <div class="row colheadstyle">
+                <div class="col-xs-2">
+                    <h3>First Name</h3>
+                </div>
+                <div class="col-xs-2">
+                    <h3>Last Name</h3>
+                </div>
+                <div class="col-xs-2">
+                    <h3>Skills</h3>
+                </div>
+                <div class="col-xs-2">
+                    <h3>Mobile Number</h3>
+                </div>
+                <div class="col-xs-2">
+                    <h3>Edit</h3>
+                </div>
+                <div class="col-xs-2">
+                    <h3>Delete</h3>
+                </div>
+            </div>
+            <div class="row colstyle">
+                <div class="col-xs-2">
+                    <input type="text" value="Rishabh">
+                </div>
+                <div class="col-xs-2">
+                <input type="text" value="Patel">
+                </div>
+                <div class="col-xs-2">
+                    <input type="text" value="C,Java,Python,DSA,Web devlopment">
+                </div>
+                <div class="col-xs-2">
+                    <input type="number" value="9876543210">
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-default" onclick="alert('Do You Want To Delete The Record?')">Delete</button>
+                </div>
+            </div>
+            <div class="row colstyle">
+                <div class="col-xs-2">
+                    <input type="text" value="Rashmi">
+                </div>
+                <div class="col-xs-2">
+                <input type="text" value="Rama">
+                </div>
+                <div class="col-xs-2">
+                    <input type="text" value="C,Java,Python,DSA,Web devlopment">
+                </div>
+                <div class="col-xs-2">
+                    <input type="number" value="9123456780">
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-default" onclick="alert('Do You Want To Delete The Record?')">Delete</button>
+                </div>
+        </div>
+        <div class="row colstyle">
+                <div class="col-xs-2">
+                    <input type="text" value="Rajeev">
+                </div>
+                <div class="col-xs-2">
+                <input type="text" value="Patel">
+                </div>
+                <div class="col-xs-2">
+                    <input type="text" value="C,Java,Python,DSA,Web devlopment">
+                </div>
+                <div class="col-xs-2">
+                    <input type="number" value="9753124680">
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-default" onclick="alert('Do You Want To Delete The Record?')">Delete</button>
+                </div>
+        </div>
+            <div class="row colstyle">
+                <div class="col-xs-2">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="col-xs-2">
+                <input type="text" placeholder="Last Name">
+                </div>
+                <div class="col-xs-2">
+                    <input type="text" placeholder="Skills">
+                </div>
+                <div class="col-xs-2">
+                    <input type="number" placeholder="Mobile Number">
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-default" onclick="alert('Do You Want To Delete The Record?')">Delete</button>
+                </div>
+        </div>
+            <div class="row colstyle">
+                <div class="col-xs-2">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="col-xs-2">
+                <input type="text" placeholder="Last Name">
+                </div>
+                <div class="col-xs-2">
+                    <input type="text" placeholder="Skills">
+                </div>
+                <div class="col-xs-2">
+                    <input type="number" placeholder="Mobile Number">
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-default" onclick="alert('Do You Want To Delete The Record?')">Delete</button>
+                </div>
+        </div>
+        </div>
+        <footer>
+            <div class="container">
+                <center>
+            For more information, click on <a href="jalatechnologies.com" target="_blank">Click here</a>
+                </center>
+            </div>
+        </footer>
+    </body>
+</html>
